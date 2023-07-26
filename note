@@ -1,0 +1,4 @@
+#FIND THE NAMES OF THE TABLES
+SELECT name 
+  FROM sqlite_master
+ where type = 'table'
